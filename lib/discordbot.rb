@@ -159,7 +159,7 @@ client.user_command({ default: "info", ja: "詳細" }) do |interaction, user|
 end
 
 client.change_presence(
-  Discorb::Activity.new("owo", :streaming, "https://youtube.com/watch?v=5j8aG_zO9DI&pp=ygUYY3V0ZSBmZW1ib3lzIGNvbXBpbGF0aW9u")
+  Discorb::Activity.new("playing with cute bottoms", :streaming, "https://youtube.com/watch?v=5j8aG_zO9DI&pp=ygUYY3V0ZSBmZW1ib3lzIGNvbXBpbGF0aW9u")
 )
 
 client.run(ENV['TOKEN'])
